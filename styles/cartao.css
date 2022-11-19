@@ -1,0 +1,52 @@
+.cartao {
+    margin: 1em;
+    padding: 1em;
+    background: var(--branco);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.cartao__descricao {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cartao__descricao-titulo {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--laranja)
+}
+
+.cartao__titulo {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--azul);
+    margin: 1em 0;
+}
+
+.cartao__texto {
+    margin: 1em 0
+}
+
+.cartao__botoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botões {
+    display: flex;
+}
+
+.cartao__botao {
+    color: var(--branco);
+    background-color: var(--laranja);
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-top: 1em;
+    padding: 1em 2.2em;
+}
+
+.botões__item {
+    margin: 0 0.5em;
+}
